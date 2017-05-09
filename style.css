@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  /*height: 100px;*/
+  width: 100%;
+  background-color: #404041;
+}
+
+h1 {
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  color: #ed458b;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+span {
+  color: #e6e7e8;
+  font-weight: 300;
+}
+
+#userInput {
+  height: 40px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 300;
+  color: #d0d2d3;
+}
+
+#button-container {
+  width: 410px;
+  /*background-color: blue;*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.top-buttons-size {
+  width: 170px;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#top-text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -30px;
+
+}
+
+#number-guessed {
+  height: 230px;
+  /*background-color: pink;*/
+  text-align: center;
+  font-size: 10em;
+  margin: 0;
+  color: #eb008b;
+  font-weight: 300;
+}
+
+#bottom-text {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  height: 40px;
+}
+
+.gamefeedback-text-styling {
+  font-size: 25px;
+  font-weight: 300;
+  color: #404041;
+}
+
+#reset-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  width: 400px;
+  height: 40px;
+  /*margin-bottom: 60px;*/
+}
+
+.buttons {
+  border-radius: 20px;
+  background-color: #d0d2d3;
+  border: 1px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.buttons:hover {
+  background-color: #eb008b;
+}
+
+#min-max-container {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+}
+
+.min-max-inputs {
+  width: 100px;
+  height: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

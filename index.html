@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <title>Number Guesser</title>
+  </head>
+  <body>
+    <header>
+        <h1>Number<span> Guesser</span></h1>
+    </header>
+    <main>
+      <input type="text" name="user-guess-input" placeholder="Enter your guess!" id="userInput">
+      <section id="min-max-container">
+        <label for="minInput">Min</label>
+        <input type="text" name="min" class="min-max-inputs" id="minInput">
+        <label for="maxInput">Max</label>
+        <input type="text" name="max" class="min-max-inputs" id="maxInput">
+      </section>
+      <div id="button-container">
+          <button type="button" name="button" class="top-buttons-size buttons" id="guessButton">Guess</button>
+          <button type="button" name="button" class="top-buttons-size buttons" id="clearButton">Clear</button>
+      </div>
+        <p id="top-text" class="gamefeedback-text-styling">Your last guess was</p>
+        <p id="number-guessed"></p>
+        <p id="bottom-text" class="gamefeedback-text-styling"></p>
+        <button type="button" name="button" id="reset-button" class="buttons">Reset</button>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
